@@ -790,6 +790,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1620840943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620840937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7d4a95ef01d96c4bb50e844c1461c23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CollisionHandler
 --- !u!1001 &2125818629
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -842,6 +854,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Launch Pad (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4500624362530354297, guid: d4087b5bfb4a97c49ac28d5d375e8df1, type: 3}
+      propertyPath: m_TagString
+      value: Finish
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -865,7 +881,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3284145457788114723, guid: 9c8b99074c9e40b47aacc5db0e8d3559, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.83
+      value: 7.8
       objectReference: {fileID: 0}
     - target: {fileID: 3284145457788114723, guid: 9c8b99074c9e40b47aacc5db0e8d3559, type: 3}
       propertyPath: m_LocalPosition.z
@@ -983,6 +999,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3882973720685843675, guid: e60c888f0b5c7b24a9c3e66145d97862, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1620840942}
+    - targetCorrespondingSourceObject: {fileID: 3882973720685843675, guid: e60c888f0b5c7b24a9c3e66145d97862, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1620840943}
   m_SourcePrefab: {fileID: 100100000, guid: e60c888f0b5c7b24a9c3e66145d97862, type: 3}
 --- !u!1001 &5949896924010716520
 PrefabInstance:
@@ -1035,6 +1054,10 @@ PrefabInstance:
     - target: {fileID: 4500624362530354297, guid: d4087b5bfb4a97c49ac28d5d375e8df1, type: 3}
       propertyPath: m_Name
       value: Launch Pad
+      objectReference: {fileID: 0}
+    - target: {fileID: 4500624362530354297, guid: d4087b5bfb4a97c49ac28d5d375e8df1, type: 3}
+      propertyPath: m_TagString
+      value: Friendly
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
