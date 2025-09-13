@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 18565df69fff8c846813e622ad92af78, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -876,9 +876,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollisionHandler
   levelLoadDelay: 2
-  timeToReloadLevel: 2
-  crashSound: {fileID: 8300000, guid: 6dd07d581f2c4d34493aace036d0d136, type: 3}
-  successSound: {fileID: 8300000, guid: 5ebc513f8d5acc349bafe7c4d6d7ef3d, type: 3}
+  crashSFX: {fileID: 0}
+  successSFX: {fileID: 0}
+  successParticles: {fileID: 0}
+  crashParticles: {fileID: 0}
 --- !u!1001 &2125818629
 PrefabInstance:
   m_ObjectHideFlags: 0
